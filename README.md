@@ -1,4 +1,4 @@
-# Young Coders Programming Contests
+# <h1 align="center"> Young Coders Programming Contests <h1>
 
 ## Contest Links :
 
