@@ -1,1 +1,0 @@
-{"name":"Local: Penalty","url":"c:\\PU Projects\\YCPC\\My Solution\\Penalty.cpp","tests":[{"id":1669572745274,"input":"4 4\n10000\n10000\n11000\n10000","output":"Argentina"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\PU Projects\\YCPC\\My Solution\\Penalty.cpp","group":"local","local":true}
