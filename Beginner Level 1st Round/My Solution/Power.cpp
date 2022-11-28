@@ -10,20 +10,22 @@ int main()
 {
     int t;
     cin >> t;
+    int n, x = 0;
     while (t--)
     {
-        long long int n;
+        int n, x = 0, r = 0;
         cin >> n;
-        int first_digit = 0;
-        while (n)
+        while (1)
         {
-            int r = n % 10;
-            first_digit = r;
-            n /= 10;
+            r = pow(2, x);
+            if (r >= n)
+            {
+                break;
+            }
+            x++;
         }
-        cout << first_digit;
-        /*         long long int r = pow(2, n);
-                cout << r; */
+        cout << r << endl;
     }
+
     return 0;
 }
