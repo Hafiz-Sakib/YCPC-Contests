@@ -72,6 +72,14 @@ void Boom()
     }
     else
     {
+        for (int i = 6; i < s.size(); i++)
+        {
+            if (s[i] == '+')
+            {
+                no;
+                return;
+            }
+        }
         yes;
     }
 }
